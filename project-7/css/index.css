@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.parent{
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.parent div{
+    text-align: left;
+    padding: 10px;
+    width: calc( calc(100% / 3));
+}
+
+.parent div{
+    width: calc(100%/2);
+}
+
+.parent .one{
+    width: calc(100%);
+} 
+
+.parent .one{
+    background-color: #ffffff;
+    padding-left: 25px ;
+}
+.parent .one h1{
+    color: #2eaca9;
+    margin: 10px 0px 20px;
+}
+.parent .one .clor{
+    color: #cfec3c;
+    margin: 10px 40px 20px 0px;
+    font-size: 24px;
+}
+.parent .one p:last-of-type{
+    color: #a2a6b1;
+    margin: 10px 110px 20px 0px;
+    line-height: 1.4;
+    font-size: 23px;
+
+}
+
+
+
+.parent .two{
+    background-color: #2db2b1;
+    color: #ddffff;
+    padding-left: 25px ;
+
+}
+.parent .two h2{
+    margin: 20px 0px 20px;
+}
+.parent .two h1{
+    margin: 20px 0px 20px;
+    font-size: 45px;
+}
+.parent .two span{
+    font-size: 30px;
+    color: #b5ffff;
+    margin-left: 20px;
+}
+.parent .two p {
+    margin: 10px 40px 20px 0px;
+    line-height: 1.4;
+    font-size: 18px;
+    color: rgb(202, 202, 202);
+}
+
+.parent .two  button{
+    margin: 10px 40px 20px 0px;
+    font-size: 25px;
+    width: 95%;
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: #bfdf32;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.parent .two  button span{
+    color: white;
+}
+/*
+.parent .two  button:hover{
+    background-color: #e28525;
+}
+*/
+
+.parent .three{
+    background-color: #4abebd;
+    color: white;
+    padding-left: 25px ;
+
+}
+.parent .three h1{
+    color: white;
+    margin: 10px 0px 20px;
+
+}
+.parent .three p{
+    color: #b5ffff;
+    margin: 12px 103px 20px 0px;
+    font-size: 22px;
+}
+
+@media  (max-width: 425px) {
+
+    .parent .one{
+        width: calc(100%);
+    }
+    .parent .one p:last-of-type{
+        color: #a2a6b1;
+        margin: 10px 40px 20px 0px;
+        line-height: 1.4;
+        font-size: 18px;
+    
+    }
+    
+    .parent .two{
+        width: calc(100%);
+    }
+    .parent .three{
+        width: calc(100%);
+    }
+     
+}
